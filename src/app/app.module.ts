@@ -28,9 +28,9 @@ registerLocaleData(localFrCA);
     BrowserAnimationsModule
   ],
   providers: [
-    {
-      provide:LOCALE_ID, useValue:'localEsHN'
-    }
+    // {
+    //   provide:LOCALE_ID, useValue:'localEsHN'
+    // }
   ],
   bootstrap: [AppComponent]
 })
